@@ -1,0 +1,27 @@
+body{background-color:#d6ecdb;}
+#center{ text-align:center;}
+#title{padding:5px 5px 5px 5px;background-color:#98d1a6;color:#333;margin-bottom:20px;}
+#center-table{margin:0 auto !important;float:none !important;}
+.row{margin-left: 2%; margin-right: 2%}
+.btn{min-width: 100px; border: 0px !important;}
+.btn:hover{box-shadow: 2px 2px #008D34; background-color: #94ec00 !important;}
+.btn:hover{-ms-transform: scale(1.2);-webkit-transform: scale(1.2);transform: scale(1.2);}
+#btn5{background-color: #f7bc99;}
+#btn10{background-color: #f39a66;}
+#btn15{background-color: #ef7932;}
+#btn20{background-color: #EC5800;}
+#myLog{display: block !important;}
+@media screen and (min-width: 1024px) {
+	#myCanvas{font: 250px arial, sans-serif; color: #fff; text-align: center;}
+	#myLog{font: 50px arial, sans-serif; color: #000; text-align: center;}
+}
+@media only screen and (min-width: 768px) {
+    #myCanvas{font: 200px arial, sans-serif; color: #fff; text-align: center;}
+    #myLog{font: 25px arial, sans-serif; color: #000; text-align: center;}
+}
+
+@media only screen and (max-width: 767px) {
+    #myCanvas{font: 150px arial, sans-serif; color: #fff; text-align: center;}
+    #myLog{font: 10px arial, sans-serif; color: #000; text-align: center;}
+}
+table td{text-align:center;vertical-align:middle;padding:5px 5px 5px 5px;}

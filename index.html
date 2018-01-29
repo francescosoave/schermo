@@ -1,0 +1,43 @@
+<html>
+<head>
+	<title>Timer Atena</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'><meta http-equiv='Content-Type' content='text/html;charset=UTF-8' />
+	<link rel='stylesheet' href='css/bootstrap.min.css'>
+	<link rel='stylesheet' href='css/style.css'>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<head>
+		<body>
+			<div id='center'><div id='title'>
+				<img class="img-responsive" style="max-width: 30%" src="assets/ass_logo.png" alt="Timer Atena">
+			</div>
+		</div>
+		<section class="row">
+			<div class="col-md-4">
+				<table id='center-table'>
+					<tr>
+						<td colspan='2'><a onClick="setTimer(0)" class='btn btn-danger btn-block btn-lg'>OFF</a></td>
+					</tr>
+					<tr>
+						<td><a id='btn5' onClick="setTimer(1)" class='btn btn-success btn-block btn-lg'>5</a></td>
+						<td><a id='btn10' onClick="setTimer(10)" class='btn btn-success btn-block btn-lg'>10</a></td>
+					</tr>
+					<tr>
+						<td><a id='btn15' onClick="setTimer(15)" class='btn btn-success btn-block btn-lg'>15</a></td>
+						<td><a id='btn20' onClick="setTimer(20)" class='btn btn-success btn-block btn-lg'>20</a></td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-8">	
+				<div id="myCanvas" style="width:100%;height:auto;background-color:#000;"></div>
+			</div>
+		</section>
+		<hr/>
+		<div class="row">
+			<div id="myLog" style="width:100%;height:auto;background-color:#fff;"></div>
+		</div>
+	</body>
+	</html>
+
